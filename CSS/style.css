@@ -1,0 +1,125 @@
+
+
+.main {
+    height: -webkit-fill-available;
+    background-image: url("https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+    position: relative;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+}
+
+.btn{
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	border: 1.5px solid white;
+}
+
+.intro {
+   height: 35em;
+   position: relative
+
+}
+
+.intro h1{
+   position: relative;               
+   top: 50%;                         
+   transform: translate(0, -50%) 
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-shadow: 2px 2px 4px #B8B8B8;
+}
+
+.intro a:link {
+    display: block;
+	position: relative;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    margin-top: 100px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#spinButton{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+    margin-top: 65px;
+    border: 1.5px solid white;
+    padding:11px 30px;
+    color: white;
+    background: rgba(255, 250, 250, 0.5);
+
+}
+
+/*Destinations page styles*/
+
+
+.destination-result {
+	width: 100%;
+    height: 750px;
+    background-image: url("../images/bg-ricefield.png");
+    background-size: cover; 
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	margin:auto;
+  	padding:0;
+  	text-align:center;
+  	padding:0;
+}
+
+#spinagainButton{
+	position: relative; 
+  top: 30px;
+  left: 0px;              
+  background: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 5px; 
+}
+
+.cityInfo{
+  position: absolute;
+  top:200px;
+  width:100%;
+  right:0;
+}
+
+.cityInfo h1{
+	float: right;
+	font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cityDescription{
+  position: absolute;
+  color: #4A4A4A;
+  top: 110px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  width:70%;
+  right:0px;
+}
+
